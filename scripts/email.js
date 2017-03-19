@@ -21,7 +21,7 @@ function addResponse(e, branch) {
 		email: e,
   	};
 
-  	var newPostKey = firebase.database().ref().child('responses').push().key;
+  	var newPostKey = firebase.database().ref().child(branch).push().key;
 
   	var updates = {};
   	updates['/' + branch + '/' + newPostKey] = postData;
