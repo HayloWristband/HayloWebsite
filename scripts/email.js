@@ -17,7 +17,7 @@ function doSubmit(branch) {
 function addResponse(e, branch) {
 	var d = new Date();
  	var postData = {
-   	date: d.toString(),
+      date: d.toString(),
 		email: e,
   	};
 
@@ -25,5 +25,5 @@ function addResponse(e, branch) {
 
   	var updates = {};
   	updates['/' + branch + '/' + newPostKey] = postData;
-  	return firebase.database().ref().update(updates);
+   return firebase.database().ref().update(updates);
 }
