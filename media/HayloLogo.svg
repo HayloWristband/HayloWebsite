@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 703 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="243" cy="303" r="75"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="150" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="627" cy="303" r="75"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="150" height="150" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-5">
+            <use id="Oval-2-Copy" stroke="#000000" mask="url(#mask-2)" stroke-width="60" xlink:href="#path-1"></use>
+            <path d="M303,228 L303,378" id="Line-Copy-3" stroke="#000000" stroke-width="30"></path>
+            <path d="M15,153 L15,303" id="Line" stroke="#000000" stroke-width="30"></path>
+            <path d="M336,303 C336,344.421356 369.578644,378 411,378 C452.421356,378 486,344.421356 486,303 L456,303 C456,327.852814 435.852814,348 411,348 C386.147186,348 366,327.852814 366,303 L336,303 Z M336,228 L366,228 L366,303 L336,303 L336,228 Z M456,228 L486,228 L486,303 L456,303 L456,228 Z" id="Combined-Shape" fill="#000000"></path>
+            <path d="M471,303 L471,453" id="Line" stroke="#000000" stroke-width="30" transform="translate(471.000000, 378.000000) rotate(180.000000) translate(-471.000000, -378.000000) "></path>
+            <path d="M519,152 L519,377" id="Line-Copy-4" stroke="#000000" stroke-width="30" transform="translate(519.000000, 265.000000) rotate(180.000000) translate(-519.000000, -265.000000) "></path>
+            <path d="M470,228 L470,303" id="Line-Copy" stroke="#000000" stroke-width="30" transform="translate(470.500000, 265.500000) rotate(180.000000) translate(-470.500000, -265.500000) "></path>
+            <path d="M351,228 L351,303" id="Line-Copy-2" stroke="#000000" stroke-width="30" transform="translate(351.000000, 265.500000) rotate(180.000000) translate(-351.000000, -265.500000) "></path>
+            <use id="Oval-2-Copy-3" stroke="#000000" mask="url(#mask-4)" stroke-width="60" xlink:href="#path-3"></use>
+            <ellipse id="Oval-Copy" stroke="#FFE160" stroke-width="30" transform="translate(350.643959, 67.970023) rotate(5.000000) translate(-350.643959, -67.970023) " cx="350.643959" cy="67.9700232" rx="200" ry="50"></ellipse>
+            <path d="M150,304 L120,304 C120,279.147186 99.8528137,259 75,259 C50.1471863,259 30,279.147186 30,304 L2.44249065e-15,304 C2.44249065e-15,262.578644 33.5786438,229 75,229 C116.421356,229 150,262.578644 150,304 Z M120,304 L150,304 L150,378 L120,378 L120,304 Z M2.44249065e-15,304 L30,304 L30,378 L2.44249065e-15,378 L2.44249065e-15,304 Z" id="Combined-Shape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

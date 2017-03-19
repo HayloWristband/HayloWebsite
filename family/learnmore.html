@@ -1,0 +1,60 @@
+<html style="background-image: none;">
+   <head>
+      <title>HAYLO BAND</title>
+      <link rel="stylesheet" type="text/css" href="/styles/style.css">
+      <link rel="stylesheet" type="text/css" href="/styles/loader.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="https://www.google-analytics.com/analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			 apiKey: "AIzaSyCP_W7CItYL5HGK7b26WyGvbodmlg99etk",
+			 authDomain: "capstonemvp.firebaseapp.com",
+			 databaseURL: "https://capstonemvp.firebaseio.com",
+			 storageBucket: "capstonemvp.appspot.com",
+			 messagingSenderId: "735596413287"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<script src="/scripts/email.js"></script>
+   </head>
+   <body style="background-image: none;">
+      <div id="headerbar">
+         <div id="logo">
+            <a href="/family">
+               <img height="100%" src="/media/HayloLogo.svg"></img>
+            </a>
+         </div>
+      </div>
+      <div id="content">
+         <div class="columnstack">
+            <div id="email-wrapper">
+               <div id="email-haylo">
+               </div>
+               <div id="email-description-header">
+                  Help us out!
+               </div>
+               <div id="email-description">
+                  We are rolling out our first wave of beta tests very soon! If you're interested in receiving a free set of testing bands in the near future, please enter your email below. Your feedback will help us make the best product we can! :)
+               </div>
+               <div id="email-input-wrapper">
+                  <input id="email-input" type="email" placeholder="Email Address"/>
+               </div>
+               <div id="submit-email" class="button noselect"
+                    onclick="doSubmit('family')">
+                  SUBMIT
+               </div>
+               <div class="loader" id="loading"></div>
+					<div id="thanks-email">
+				      Thanks!
+                  <div id="back-button">
+                     <a href="/family">back</a>
+                  </div>
+					</div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
